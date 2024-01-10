@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <title>Chimobi Recipe Company</title>
+  <link rel="shortcut icon" type="image/png" href="assets/favicon.png">
+  <style>
+    /* Additional CSS for dropdown styling */
+    #featured-recipes {
+      padding: 10px;
+      font-size: 16px;
+      border: 1px solid #a11414;
+      border-radius: 5px;
+      background-color: #1b1677;
+      color: #333;
+    }
+
+    /* Styling for dropdown options */
+    #featured-recipes option {
+      background-color: #fff;
+      color: #333;
+    }
+
+    /* Custom styling for the selected option */
+    #featured-recipes option:checked {
+      background-color: #ffdb58; /* Yellow color */
+    }
+  </style>
+</head>
+</head>
+
+<body>
+  <div class="video-container">
+    <video autoplay muted loop playsinline>
+      <!-- Replace 'your-video-url' with the actual URL of your video -->
+      <source src="assets/meat on stove.mp4" type="video/mp4">
+     
+    </video>
+  </div>
+
+  <header>
+    <h1>Chimobi Recipe Company</h1>
+    <p>Delicious recipes just for you!</p>
+    <button>
+    <a href="index.html">Recipe home</a>
+</button>
+  </header>
+
+  <section>
+    <h2>Featured Recipes</h2>
+    <!-- Add your featured recipes content here -->
+    <p>learn how to make jollof-rice.</p>
+
+    <!-- Dropdown menu for featured recipes -->
+    <label for="featured-recipes">Select a Recipe:</label>
+    <select id="featured-recipes">
+      <option value="select">Select a Recipe</option>
+      <option value="jollof-rice">Jollof Rice</option>
+      <option value="fried-rice">Fried Rice</option>
+      <option value="french-toast">French Toast</option>
+    </select>
+  </section>
+
+  <!-- Add more sections and content as needed -->
+
+</body>
+
+</html>
